@@ -35,8 +35,6 @@ class UserController extends Controller
             'password' => Hash::make($request->password),
         ]);
 
-        $token = $user->createToken('auth_token')->plainTextToken;
-
         return response()->json([
             'status' => 'success',
             'message' => 'User registered successfully.',
@@ -44,8 +42,6 @@ class UserController extends Controller
                 'name' => $user->name,
                 'email' => $user->email,
             ],
-            'access_token' => $token,
-            'token_type' => 'Bearer',
         ], 201);
     }
 

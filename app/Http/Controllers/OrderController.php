@@ -17,7 +17,6 @@ class OrderController extends Controller
      */
     public function checkout(Request $request)
     {
-        // Pastikan pengguna sudah login (dijamin oleh auth:sanctum)
         $user = $request->user();
 
         try {
@@ -75,7 +74,7 @@ class OrderController extends Controller
                 'order_number' => 'ORD-' . time() . '-' . $user->id, 
                 'total_amount' => $totalPrice,
                 'shipping_address' => $validated['shipping_address'],
-                'status' => 'pending', // Status awal
+                'status' => 'pending',
             ]);
             
             $order->items()->createMany($orderItemsData);
