@@ -194,7 +194,7 @@
                 <span class="method method-post">POST</span>
                 <div class="endpoint-info">
                     <span class="endpoint-name">Register</span>
-                    <span class="endpoint-url">/api/auth/register</span>
+                    <span class="endpoint-url">https://technical-test-production-93a8.up.railway.app/api/auth/register</span>
                 </div>
                 <div class="badges">
                     <span class="badge badge-key">KEY</span>
@@ -207,7 +207,7 @@
                 <span class="method method-post">POST</span>
                 <div class="endpoint-info">
                     <span class="endpoint-name">Login</span>
-                    <span class="endpoint-url">/api/auth/login</span>
+                    <span class="endpoint-url">https://technical-test-production-93a8.up.railway.app/api/auth/login</span>
                 </div>
                 <div class="badges">
                     <span class="badge badge-key">KEY</span>
@@ -220,7 +220,7 @@
                 <span class="method method-get">GET</span>
                 <div class="endpoint-info">
                     <span class="endpoint-name">Products</span>
-                    <span class="endpoint-url">/api/products</span>
+                    <span class="endpoint-url">https://technical-test-production-93a8.up.railway.app/api/products</span>
                 </div>
                 <div class="badges">
                     <span class="badge badge-key">KEY</span>
@@ -233,7 +233,7 @@
                 <span class="method method-get">GET</span>
                 <div class="endpoint-info">
                     <span class="endpoint-name">Detail Product</span>
-                    <span class="endpoint-url">/api/products/{id}</span>
+                    <span class="endpoint-url">https://technical-test-production-93a8.up.railway.app/api/products/{id}</span>
                 </div>
                 <div class="badges">
                     <span class="badge badge-key">KEY</span>
@@ -246,7 +246,7 @@
                 <span class="method method-post">POST</span>
                 <div class="endpoint-info">
                     <span class="endpoint-name">Checkout</span>
-                    <span class="endpoint-url">/api/checkout</span>
+                    <span class="endpoint-url">https://technical-test-production-93a8.up.railway.app/api/checkout</span>
                 </div>
                 <div class="badges">
                     <span class="badge badge-key">KEY</span>
@@ -260,7 +260,7 @@
                 <span class="method method-post">POST</span>
                 <div class="endpoint-info">
                     <span class="endpoint-name">Payment Process</span>
-                    <span class="endpoint-url">/api/payment/{order_number}</span>
+                    <span class="endpoint-url">https://technical-test-production-93a8.up.railway.app/api/payment/{order_number}</span>
                 </div>
                 <div class="badges">
                     <span class="badge badge-key">KEY</span>
@@ -274,7 +274,7 @@
                 <span class="method method-get">GET</span>
                 <div class="endpoint-info">
                     <span class="endpoint-name">Order History</span>
-                    <span class="endpoint-url">/api/orders/history</span>
+                    <span class="endpoint-url">https://technical-test-production-93a8.up.railway.app/api/orders/history</span>
                 </div>
                 <div class="badges">
                     <span class="badge badge-key">KEY</span>
@@ -288,7 +288,7 @@
                 <span class="method method-post">POST</span>
                 <div class="endpoint-info">
                     <span class="endpoint-name">Logout</span>
-                    <span class="endpoint-url">/api/auth/logout</span>
+                    <span class="endpoint-url">https://technical-test-production-93a8.up.railway.app/api/auth/logout</span>
                 </div>
                 <div class="badges">
                     <span class="badge badge-key">KEY</span>
@@ -306,7 +306,7 @@
                 <span class="method method-post">POST</span>
                 <div class="endpoint-info">
                     <span class="endpoint-name">Payment Webhook</span>
-                    <span class="endpoint-url">/api/webhook/payment</span>
+                    <span class="endpoint-url">https://technical-test-production-93a8.up.railway.app/api/webhook/payment</span>
                 </div>
                 <div class="badges">
                     <span class="badge badge-webhook">SIG</span>
