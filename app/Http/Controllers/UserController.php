@@ -90,12 +90,20 @@ class UserController extends Controller
      */
     public function getLogout(Request $request)
     {
+        $user = $request->user();
+        if (!$user) {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Unauthenticated. Invalid or missing token.'
+            ], 401);
+        }
 
-        $request->user()->currentAccessToken()->delete();
+        $user->currentAccessToken()->delete();
 
         return response()->json([
             'status' => 'success',
             'message' => 'Successfully logged out and token revoked.'
         ]);
     }
+
 }
